@@ -55,7 +55,7 @@
 		</c:if>
 
 		<!--  only when user clicks listProducts page -->
-		<c:if test="${userClickProducts == true}">
+		<c:if test="${userClickAllProducts == true or userClickCategoryProduct == true}">
 			<%@include file="listProducts.jsp"%>
 		</c:if>
 

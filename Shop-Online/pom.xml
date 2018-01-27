@@ -15,6 +15,13 @@
 
 	<dependencies>
 
+		<!-- Link backend project -->
+		<dependency>
+			<groupId>com.bla</groupId>
+			<artifactId>ShopOnlineBackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<!-- JAVAEE API -->
 		<dependency>
 			<groupId>javax</groupId>
